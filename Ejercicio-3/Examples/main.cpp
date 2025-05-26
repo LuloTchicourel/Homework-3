@@ -7,11 +7,11 @@ int main() {
     dc_double.add(2.1);
     dc_double.add(3.2);
 
-    DataCollector<std::string> dc_string;
+    DataCollector<string> dc_string;
     dc_string.add("Hola");
     dc_string.add("Mundo");
 
-    DataCollector<std::vector<int>> dc_matrix;
+    DataCollector<vector<int>> dc_matrix;
     dc_matrix.add({1, 2});
     dc_matrix.add({3, 4});
 
